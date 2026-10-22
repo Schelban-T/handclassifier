@@ -1,0 +1,21 @@
+path: C:\Users\тимоха\PycharmProjects\selfedu\dota\yolo_pose_dataset
+
+train: train/images
+val: val/images
+
+# Настройки для ключевых точек (скелета руки)
+kpt_shape: [21, 3] # 21 точка суставов, у каждой по 3 параметра (x, y, видимость)
+
+# Список твоих классов в новом порядке (без Invoke)
+names:
+  0: Alacrity
+  1: Chaos_Meteor
+  2: Cold_Snap
+  3: Deafening_Blast
+  4: EMP
+  5: Forge_Spirit
+  6: Ghost_Walk
+  7: Hold_pos
+  8: Ice_Wall
+  9: Sun_Strike
+  10: Tornado
